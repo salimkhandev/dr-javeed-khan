@@ -85,26 +85,45 @@ ul {
     box-sizing: border-box;
 }
 
-/* Animate-on-Scroll (AOS) System */
+/* High-Impact Eye-Catching Animate-on-Scroll (AOS) System */
 [data-aos] {
     opacity: 0;
-    transform: translateY(32px);
-    transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1), transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
-    will-change: opacity, transform;
+    transform: translateY(50px) scale(0.94);
+    filter: blur(4px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), 
+                transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), 
+                filter 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform, filter;
 }
 
 [data-aos="fade-right"] {
-    transform: translateX(-35px);
+    transform: translateX(-60px) scale(0.94);
 }
 
 [data-aos="fade-left"] {
-    transform: translateX(35px);
+    transform: translateX(60px) scale(0.94);
+}
+
+[data-aos="zoom-in"] {
+    transform: scale(0.85);
+}
+
+[data-aos="flip-up"] {
+    transform: perspective(1000px) rotateX(18deg) translateY(45px) scale(0.95);
 }
 
 [data-aos].aos-animate {
     opacity: 1;
-    transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0) scale(1) rotateX(0deg);
+    filter: blur(0);
 }
+
+/* Stagger Delays */
+[data-aos-delay="100"] { transition-delay: 0.1s; }
+[data-aos-delay="200"] { transition-delay: 0.2s; }
+[data-aos-delay="300"] { transition-delay: 0.3s; }
+[data-aos-delay="400"] { transition-delay: 0.4s; }
+[data-aos-delay="500"] { transition-delay: 0.5s; }
 
 /* Typography & Headings */
 h1, h2, h3, h4, h5, h6 {

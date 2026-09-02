@@ -9,7 +9,7 @@ const blogData = {
         title: "Is Bariatric Surgery Safe? Medical Facts & Myths Explained",
         date: "August 2026 • 5 min read",
         category: "Bariatric Safety",
-        image: "images/caresole image.jpg",
+        image: "images/blog-bariatric-safety.webp",
         content: `
             <p>One of the most frequent questions patients ask during consultation at Pak Medical Center Timergara is: <em>"Doctor, is weight loss surgery really safe?"</em></p>
             
@@ -28,7 +28,7 @@ const blogData = {
         title: "Understanding Gastric Sleeve Surgery: How It Works & What to Expect",
         date: "July 2026 • 6 min read",
         category: "Gastric Sleeve",
-        image: "images/caresole image3.jpg",
+        image: "images/blog-gastric-sleeve.webp",
         content: `
             <p>Laparoscopic Sleeve Gastrectomy (Gastric Sleeve) is currently the most popular bariatric procedure performed worldwide due to its excellent weight reduction efficacy and hormonal benefits.</p>
 
@@ -47,7 +47,7 @@ const blogData = {
         title: "Why Laparoscopic Surgery Means Faster Recovery & Less Pain",
         date: "June 2026 • 4 min read",
         category: "Laparoscopic Innovation",
-        image: "images/caresole image 5.jpg",
+        image: "images/blog-laparoscopic-tech.webp",
         content: `
             <p>Laparoscopic surgery (often referred to as keyhole surgery) has revolutionized modern surgical intervention across Pakistan and globally.</p>
 
@@ -65,7 +65,7 @@ const blogData = {
         title: "Life After Bariatric Surgery: Post-Operative Diet & Lifestyle Guide",
         date: "May 2026 • 7 min read",
         category: "Post-Op Guidance",
-        image: "images/image copy 2.png",
+        image: "images/blog-postop-lifestyle.webp",
         content: `
             <p>Bariatric surgery is a powerful tool for weight loss, but long-term success requires commitment to healthy nutritional and lifestyle habits.</p>
 
@@ -85,7 +85,7 @@ const blogData = {
         title: "Reversing Type-2 Diabetes & Hypertension Through Bariatric Surgery",
         date: "April 2026 • 5 min read",
         category: "Metabolic Surgery",
-        image: "images/image.png",
+        image: "images/blog-metabolic-diabetes.webp",
         content: `
             <p>Bariatric surgery is recognized by international medical associations not merely as cosmetic weight loss, but primarily as <strong>Metabolic Surgery</strong> capable of inducing long-term Type-2 Diabetes remission.</p>
 
