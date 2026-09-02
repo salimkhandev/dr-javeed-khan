@@ -146,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition);
     cursor: pointer;
     border: 2px solid transparent;
+    white-space: nowrap;
 }
 
 .btn-primary {
@@ -195,6 +196,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-block {
     width: 100%;
+}
+
+.header-btn {
+    padding: 0.65rem 1.35rem;
+    font-size: 0.925rem;
+    font-weight: 700;
+    white-space: nowrap;
 }
 
 /* Header & Navbar */
@@ -1033,9 +1041,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-xl {
-    padding: 1.1rem 1.75rem;
-    font-size: 1.1rem;
+    padding: 0.9rem 1.1rem;
+    font-size: 0.95rem;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .clinic-hours {
